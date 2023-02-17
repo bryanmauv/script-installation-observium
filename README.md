@@ -13,16 +13,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/bryanmauv/script-installation-observium">
-    <img src="logo.png" alt="Logo" width="80" height="100">
+    <img src="logo.png" alt="Logo" width="160" height="200">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">observium script installation</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/bryanmauv/script-installation-observium"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/bryanmauv/script-installation-observium">View Demo</a>
     ·
