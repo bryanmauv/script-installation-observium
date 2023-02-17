@@ -1,11 +1,26 @@
-# script-installation-observium
+# Welcome to the 'script-installation-observium' repository!
 
-Bienvenue au repo "script-installation-observium" !
+This repository contains an installation script for the Observium network monitoring tool, compatible with versions 7, 8, and 9 of CentOS.
 
-Ce dépôt contient un script d'installation pour l'outil de supervision réseau Observium, compatible avec les versions 7, 8 et 9 de CentOS.
+Installing Observium can sometimes be a tedious and time-consuming process, but this script aims to simplify the process by automating the most common steps.
 
-L'installation d'Observium peut parfois être fastidieuse et prendre du temps, mais ce script vise à simplifier le processus en automatisant les étapes les plus courantes.
+How to use the script
+To use the script, simply clone this repository on your CentOS machine using the command git clone, and then execute the script as the root user. Make sure you understand the implications of the installation before running the script.
 
-Pour utiliser le script, il vous suffit de cloner ce dépôt sur votre machine CentOS, puis d'exécuter le script en tant qu'utilisateur root. Assurez-vous de bien comprendre les implications de l'installation avant de lancer le script.
+Here's how to use the script in a few simple steps:
 
-Si vous rencontrez des problèmes lors de l'installation, n'hésitez pas à ouvrir une issue sur ce dépôt. Nous ferons de notre mieux pour vous aider à résoudre les problèmes que vous rencontrez.
+1) Open a terminal on your CentOS machine.
+
+2) Download the repository using the command git clone.
+
+3) Change directory to the repository using the command cd.
+
+4) Change the permissions of the installation script using the command chmod.
+
+5) Execute the installation script using the command sudo.
+
+6) Follow the instructions of the installation script to complete the installation of Observium.
+
+If you encounter any issues during installation, feel free to open an issue on this repository. I will do my best to help you resolve any problems you encounter.
+
+We hope you find this script helpful in simplifying the installation process of Observium on your CentOS machine!
