@@ -91,5 +91,5 @@ We hope you find this script helpful in simplifying the installation process of 
 [license-shield]: https://img.shields.io/github/license/bryanmauv/script-installation-observium.svg?style=for-the-badge
 [license-url]: https://github.com/bryanmauv/script-installation-observium/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bryanmauv
+[linkedin-url]: https://linkedin.com/in/bryan-mauvoisin-8899b9213
 
