@@ -12,31 +12,26 @@ Here's how to use the script in a few simple steps:
 1) Open a terminal on your CentOS machine.
 
 2) install git on centos
-
 ```sh
   yum install git
 ```
   
 3) Download the repository using the command git clone.
-
  ```sh
   git clone https://github.com/bryanmauv/script-installation-observium.git
  ```
 
 4) Change directory to the repository using the command cd.
-
 ```sh
   cd script-installation-observium
 ```
 
 5) Change the permissions of the installation script using the command chmod.
-
 ```sh
   chmod +x installation-observium-centos-789.sh
 ```
 
 6) Execute the installation script using the command sudo.
-
 ```sh
   sudo ./installation-observium-centos-789.sh
 ```
