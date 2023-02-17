@@ -1,17 +1,5 @@
 #!/bin/bash
 
-echo test
-
-function goto {
-    label=$1
-    command=$(sed -n "/$label:/{:a;n;p;ba};" $0 | 
-              grep -v ':$' | 
-              sed -e 's/#.*$//' -e 's/^[^a-zA-Z0-9]*//' | 
-              tail -n +2)
-    eval "$command"
-    exit
-}
-
 hostname=$(hostname)
 
 
@@ -411,17 +399,19 @@ case $CHOICE in
         APITYPE="LocationIQ"
         APITYPEKEY="locationiq"
         ;;
-	"7)") goto skipapi
+	"7)")
         ;;
 esac
 
-APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
+if [ "$CHOICE" != "7)" ]; then
+
+  APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
 
 
-echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
-echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
+  echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
+  echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
 
-skipapi:
+fi
 
 
 latitude=$(whiptail --inputbox "Entrez votre coordonnées gps par défaut \n | latitude |" 8 50 --title "Example Dialog" 3>&1 1>&2 2>&3)
@@ -830,17 +820,19 @@ case $CHOICE in
         APITYPE="LocationIQ"
         APITYPEKEY="locationiq"
         ;;
-	"7)") goto skipapi
+	"7)")
         ;;
 esac
 
-APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
+if [ "$CHOICE" != "7)" ]; then
+
+  APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
 
 
-echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
-echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
+  echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
+  echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
 
-skipapi:
+fi
 
 
 latitude=$(whiptail --inputbox "Entrez votre coordonnées gps par défaut \n | latitude |" 8 50 --title "Example Dialog" 3>&1 1>&2 2>&3)
@@ -1248,17 +1240,18 @@ case $CHOICE in
         APITYPE="LocationIQ"
         APITYPEKEY="locationiq"
         ;;
-	"7)") goto skipapi
+	"7)")
         ;;
 esac
 
-APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
+if [ "$CHOICE" != "7)" ]; then
+  APIKEY=$(whiptail --inputbox "$APIMAP \n entre la clé API si desous" 9 105 --title "API KEY" 3>&1 1>&2 2>&3)
 
 
-echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
-echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
+  echo "\$config['geocoding']['api'] = \"$APITYPE\";" >> /opt/observium/config.php
+  echo "\$config['geo_api']['$APITYPEKEY']['key'] = \"$APIKEY\";" >> /opt/observium/config.php
 
-skipapi:
+fi
 
 
 latitude=$(whiptail --inputbox "Entrez votre coordonnées gps par défaut \n | latitude |" 8 50 --title "Example Dialog" 3>&1 1>&2 2>&3)
