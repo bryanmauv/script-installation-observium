@@ -1,4 +1,4 @@
-# Welcome to the 'script-installation-observium' repository!
+# Welcome to the 'observium installation script' repository!
 
 This repository contains an installation script for the Observium network monitoring tool, compatible with versions 7, 8, and 9 of CentOS.
 
