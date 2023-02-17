@@ -1,3 +1,38 @@
+<a name="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/bryanmauv/script-installation-observium"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/bryanmauv/script-installation-observium">View Demo</a>
+    ·
+    <a href="https://github.com/bryanmauv/script-installation-observium/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/bryanmauv/script-installation-observium/issues">Request Feature</a>
+  </p>
+</div>
+
+
 # Welcome to the 'observium installation script' repository!
 
 This repository contains an installation script for the Observium network monitoring tool, compatible with versions 7, 8, and 9 of CentOS.
